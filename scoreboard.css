@@ -74,10 +74,17 @@ On the left you can read every single element with his class */
 .boxtimer,
 .boxmoment {
     content: "";
-    background: #66013d !important;
+    background: #66013d ;
     color: #daa03d;
 }
 
+/*-------------------------------------------------------------------
+---- UNDER: background color and a little spase from margins. PLEASE DO NOT CONSIDER THIS-*/
+
+
+body {
+    background: #666;
+}
 
 .containersoccer {
     margin: 30px 0;
