@@ -12,8 +12,8 @@ On the left you can read every single element with his class */
 .space,
 .boxawaypoints,
 .sgrlogo:before {
-    background: #66013d !important;
-    color: #daa03d ;
+    background: #66013d;
+    color: #daa03d;
 }
 
 /*this change font of Team names */
@@ -74,7 +74,7 @@ On the left you can read every single element with his class */
 .boxtimer,
 .boxmoment {
     content: "";
-    background: #66013d ;
+    background: #66013d;
     color: #daa03d;
 }
 
