@@ -46,7 +46,7 @@ On the left you can read every single element with his class */
 
 .boxhometeam:before {
     right: 1vw;
-    background: url(https://i.ibb.co/XVLSdsC/Whats-App-Image-2024-06-19-at-14-32-49-de4dd876.jpg) no-repeat center;
+    background: url(https://rs140101.github.io/lasespadasscoreboard/logos/espadas.jpg) no-repeat center;
     background-size: 5vw;
 }
 
@@ -57,7 +57,7 @@ On the left you can read every single element with his class */
 
 .boxawayteam:before {
     left: 1vw;
-    background: url(https://i.ibb.co/VL6s6V6/a.png) no-repeat center;
+    background: url(https://rs140101.github.io/lasespadasscoreboard/logos/verdeamarella.png) no-repeat center;
     background-size: 5vw;
 }
 
@@ -80,6 +80,8 @@ On the left you can read every single element with his class */
 
 /*-------------------------------------------------------------------
 ---- UNDER: background color and a little spase from margins. PLEASE DO NOT CONSIDER THIS-*/
+
+/*
 body {
     background: #666;
 }
@@ -87,3 +89,4 @@ body {
 .containersoccer {
     margin: 30px 0;
 }
+        */
