@@ -4,8 +4,6 @@
 /* Container for Soccer */
 .containersoccer {
     display: grid;
-    border: #daa03d;
-    border-style: dotted;
     grid-template-columns: 5vw 15vw 3vw 3vw 3vw 15vw 5vw;
     grid-template-rows: auto auto;
     width: 100%;
