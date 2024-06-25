@@ -7,12 +7,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Bebas Neue', cursive;
-    display: flex;
     justify-content: left;
     margin-left: 5vw;
     margin-top: 1vh;
-    width: auto;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     /* Full height to help with vertical alignment */
 }
 
@@ -30,7 +29,7 @@ body {
 /* Home Team */
 
 .boxhometeam {
-    grid-column: 1 / 3;
+    grid-column: 2 / 4;
     grid-row: 1 / 1;
     display: flex;
     align-items: center;
@@ -44,14 +43,13 @@ body {
     position: relative;
 }
 
-.boxhometeam:after {
+.boxhometeam::before {
     content: "";
     position: absolute;
-    grid-column: 1 / 1;
-    left: -4vw;
+    left: -5vw;
     /* Adjust this value to move the logo closer */
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
     background: url(https://rs140101.github.io/lasespadasscoreboard/logos/escudo%20espadas.PNG) no-repeat center;
     background-size: cover;
 }
