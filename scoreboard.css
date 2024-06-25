@@ -36,10 +36,9 @@ body {
     justify-content: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
-    padding: 1vw 1vw;
     position: relative;
 }
 
@@ -61,9 +60,8 @@ body {
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    padding: 1vw 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,9 +74,8 @@ body {
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    padding: 1vw 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,9 +88,8 @@ body {
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    padding: 1vw 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,17 +97,15 @@ body {
 
 /* Away Team */
 .boxawayteam {
-    grid-column: 7 / 9;
+    grid-column: 7 / 8;
     grid-row: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    text-align: center;
-    padding: 1vw 1vw;
     border: none;
     position: relative;
 }
@@ -137,8 +131,8 @@ body {
     background: #66013d;
     color: #daa03d;
     font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    padding: 1vw 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,9 +147,8 @@ body {
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    padding: 1vw 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
