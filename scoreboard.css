@@ -166,7 +166,4 @@ body {
 /* General Styles */
 .containersoccer div {
     margin: 0;
-    /* Remove margin between elements */
-    white-space: nowrap;
-    /* Ensure no wrapping */
 }
