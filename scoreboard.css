@@ -4,7 +4,7 @@
 /* Container for Soccer */
 .containersoccer {
     display: grid;
-    grid-template-columns: 5vw 15vw 3vw 3vw 3vw 15vw 5vw;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr 4fr 1fr;
     grid-template-rows: auto auto;
     width: 100%;
 }
@@ -12,11 +12,13 @@
 /* Home Team */
 
 .boxhometeam {
+    display: grid;
+    align-items: center;
     grid-column: 2/2;
     grid-row: 1 / 1;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -26,10 +28,10 @@
 .boxhometeam::before {
     content: "";
     position: absolute;
-    left: -5vw;
+    left: -10vw;
     /* Adjust this value to move the logo closer */
-    width: 5vw;
-    height: 5vw;
+    width: 10vw;
+    height: 10vw;
     background: url(https://rs140101.github.io/lasespadasscoreboard/logos/escudo%20espadas.PNG) no-repeat center;
     background-size: cover;
 }
@@ -41,7 +43,7 @@
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
 }
@@ -53,7 +55,7 @@
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
 }
@@ -65,19 +67,21 @@
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
 }
 
 /* Away Team */
 .boxawayteam {
+    display: grid;
+    align-items: center;
     grid-column: 6 / 6;
     grid-row: 1 / 1;
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     position: relative;
@@ -86,12 +90,12 @@
 .boxawayteam:before {
     content: "";
     position: absolute;
-    right: -5vw;
-    /* Adjust this value to move the logo closer */
-    width: 4vw;
-    height: 4vw;
+    right: -10vw;
+    width: 10vw;
+    height: 10vw;
     background: url(https://rs140101.github.io/lasespadasscoreboard/logos/verdeamarella.png) no-repeat center;
     background-size: cover;
+
 
 }
 
@@ -102,7 +106,7 @@
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
 }
@@ -114,7 +118,7 @@
     text-align: center;
     background: #66013d;
     color: #daa03d;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
 }
