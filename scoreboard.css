@@ -23,6 +23,7 @@
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     position: relative;
+    border-left: solid 1vw #daa03d;
 }
 
 .boxhometeam::before {
@@ -41,11 +42,12 @@
     grid-column: 3 / 3;
     grid-row: 1 / 1;
     text-align: center;
-    background: #66013d;
+    background: #cfc9d0;
     color: #daa03d;
     font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
+    border-left: solid 1vw #daa03d;
 }
 
 /* Space (Separator) */
@@ -53,7 +55,7 @@
     grid-column: 4 / 4;
     grid-row: 1 / 1;
     text-align: center;
-    background: #66013d;
+    background: #cfc9d0;
     color: #daa03d;
     font-size: 5vw;
     font-weight: bold;
@@ -65,11 +67,12 @@
     grid-column: 5 / 5;
     grid-row: 1 / 1;
     text-align: center;
-    background: #66013d;
+    background: #cfc9d0;
     color: #daa03d;
     font-size: 5vw;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
+    border-right: solid 1vw #daa03d;
 }
 
 /* Away Team */
@@ -85,14 +88,15 @@
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     position: relative;
+    border-right: solid 1vw #daa03d;
 }
 
 .boxawayteam:before {
     content: "";
     position: absolute;
     right: -10vw;
-    width: 10vw;
-    height: 10vw;
+    width: 8vw;
+    height: 8vw;
     background: url(https://rs140101.github.io/lasespadasscoreboard/logos/verdeamarella.png) no-repeat center;
     background-size: cover;
 
@@ -104,7 +108,7 @@
     grid-column: 3/5;
     grid-row: 2 / 2;
     text-align: center;
-    background: #66013d;
+    background: #333333;
     color: #daa03d;
     font-size: 5vw;
     font-weight: bold;
@@ -116,7 +120,7 @@
     grid-column: 5/5;
     grid-row: 2 / 2;
     text-align: center;
-    background: #66013d;
+    background: #333333;
     color: #daa03d;
     font-size: 5vw;
     font-weight: bold;
