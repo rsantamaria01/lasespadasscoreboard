@@ -7,6 +7,7 @@
     grid-template-columns: 1fr 4fr 1fr 1fr 1fr 4fr 1fr;
     grid-template-rows: auto auto;
     width: 100%;
+    margin-top: 1vh;
 }
 
 /* Home Team */
