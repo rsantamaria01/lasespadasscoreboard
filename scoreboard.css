@@ -34,7 +34,7 @@
     /* Adjust this value to move the logo closer */
     width: 10vw;
     height: 10vw;
-    background: url(https://rs140101.github.io/lasespadasscoreboard/logos/escudo%20espadas.PNG) no-repeat center;
+    background: url(https://raw.githubusercontent.com/rsantamaria01/lasespadasscoreboard/refs/heads/main/logos/escudo%20espadas.PNG) no-repeat center;
     background-size: cover;
 }
 
@@ -98,22 +98,8 @@
     right: -10vw;
     width: 8vw;
     height: 8vw;
-    background: url(https://rs140101.github.io/lasespadasscoreboard/logos/PROM%205B.png) no-repeat center;
+    background: url(https://raw.githubusercontent.com/rsantamaria01/lasespadasscoreboard/refs/heads/main/logos/PROM%201%20Y%202.png) no-repeat center;
     background-size: cover;
-
-    /*
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%201%20Y%202.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%2010.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%2011A.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%2011B.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%203.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%204.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%205A.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%205B.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%207.PNG
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%208.png
-    https://rs140101.github.io/lasespadasscoreboard/logos/PROM%209.png
-    */
 
 
 }
